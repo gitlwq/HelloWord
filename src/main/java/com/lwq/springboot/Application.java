@@ -24,6 +24,7 @@ public class Application extends WebMvcConfigurerAdapter implements EmbeddedServ
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        System.out.print("mdzz");
         super.addInterceptors(registry);
     }
 
